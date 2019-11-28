@@ -19,12 +19,4 @@
             app:strokeColor="#FF777777"
             app:strokeWidth="1dp"/>
 
-    <!-- A RecyclerView with some commonly used attributes -->
-
-    <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/my_recycler_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:scrollbars="vertical" />
-
 </LinearLayout>

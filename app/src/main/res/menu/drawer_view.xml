@@ -10,6 +10,10 @@
                 android:icon="@drawable/ic_two"
                 android:title="@string/second_icon" />
         <item
+                android:id="@+id/nav_fourth_fragment"
+                android:icon="@drawable/ic_three"
+                android:title="@string/Carrière" />
+        <item
                 android:id="@+id/nav_third_fragment"
                 android:icon="@drawable/ic_three"
                 android:title="@string/third_icon" />

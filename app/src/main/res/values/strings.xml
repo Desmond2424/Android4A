@@ -3,6 +3,7 @@
     <string name="app_name">DCA Consultinng</string>
     <string name="first_icon">Notre Equipe</string>
     <string name="second_icon">Notre Metier</string>
+    <string name="Carrière">Carrière</string>
     <string name="third_icon">Contact</string>
     <string name="firstfragment_text">FirstFragment</string>
     <string name="secondfragment_text">SecondFragment</string>
@@ -15,4 +16,7 @@
     <string name="contact_form_button">Send Message</string>
     <string name="contact_form_post_message">Please wait! We\'re sending your message to the support department...</string>
     <string name="contact_posted">Your message has been successfully delivered.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
