@@ -15,7 +15,6 @@
                 android:title="@string/Carrière" />
         <item
                 android:id="@+id/nav_third_fragment"
-                android:icon="@drawable/ic_three"
                 android:title="@string/third_icon" />
     </group>
 </menu>

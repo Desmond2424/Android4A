@@ -9,10 +9,11 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class FourthFragment extends Fragment {
+public class
+
+FourthFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter mAdapter;
@@ -24,6 +25,14 @@ public class FourthFragment extends Fragment {
 
         //        setContentView(R.layout.secondfragment_layout);
         recyclerView = view.findViewById(R.id.my_recycler_view);
+
+        MainController controller = new MainController(this);
+        controller.start();
+
+        return view;
+    }
+
+    public void loadList(List<Data> joblist) {
         // use this setting to
         // improve performance if you know that changes
         // in content do not change the layout size
@@ -32,13 +41,8 @@ public class FourthFragment extends Fragment {
         // use a linear layout manager
         layoutManager = new LinearLayoutManager(getContext());
         recyclerView.setLayoutManager(layoutManager);
-        List<String> input = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
-            input.add("Test" + i);
-        }// define an adapter
-        mAdapter = new MyAdapter(input);
-        recyclerView.setAdapter(mAdapter);
 
-        return view;
+        mAdapter = new MyAdapter(joblist, getContext());
+        recyclerView.setAdapter(mAdapter);
     }
 }

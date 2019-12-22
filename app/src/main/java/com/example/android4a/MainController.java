@@ -11,9 +11,15 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class Controller {
+public class MainController {
 
     static final String BASE_URL = "https://jobs.github.com/";
+
+    private final FourthFragment view;
+
+    public MainController(FourthFragment view) {
+        this.view = view;
+    }
 
     public void start() {
         Gson gson = new GsonBuilder()
@@ -32,11 +38,12 @@ public class Controller {
             @Override
             public void onResponse(Call<List<Data>> call, Response<List<Data>> response) {
                 List<Data> list = response.body();
+                view.loadList(list);
             }
 
             @Override
             public void onFailure(Call<List<Data>> call, Throwable t) {
-
+                t.printStackTrace();
             }
         });
     }
