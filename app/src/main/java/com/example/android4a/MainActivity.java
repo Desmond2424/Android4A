@@ -1,8 +1,8 @@
 package com.example.android4a;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
+
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -10,8 +10,8 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import com.google.android.material.navigation.NavigationView;
+
 import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
         
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawer;
@@ -44,7 +44,9 @@ public class MainActivity extends AppCompatActivity {
 
         // Lookup navigation view
         NavigationView navigationView =  findViewById(R.id.nvView);
+
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -98,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
         // Insert the fragment by replacing any existing fragment
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
-
         // Highlight the selected item has been done by NavigationView
         menuItem.setChecked(true);
         // Set action bar title
