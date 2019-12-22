@@ -1,4 +1,4 @@
-package com.example.android4a;
+package com.example.android4a.Vue;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,6 +8,8 @@ import android.widget.BaseAdapter;
 import android.view.LayoutInflater;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.android4a.R;
 
 public class Image_adapter extends BaseAdapter {
     public int[] image_id = {R.drawable.desmond, R.drawable.ced,R.drawable.zak};

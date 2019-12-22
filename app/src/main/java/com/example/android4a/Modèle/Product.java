@@ -1,4 +1,4 @@
-package com.example.android4a;
+package com.example.android4a.Modèle;
 
 public class Product {
     private int id;

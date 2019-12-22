@@ -1,4 +1,4 @@
-package com.example.android4a;
+package com.example.android4a.Vue;
 
 
 import android.os.Bundle;
@@ -8,6 +8,11 @@ import android.view.ViewGroup;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.android4a.Controller.MainController;
+import com.example.android4a.Injection;
+import com.example.android4a.Modèle.Data;
+import com.example.android4a.R;
 
 import java.util.List;
 
@@ -26,7 +31,7 @@ FourthFragment extends Fragment {
         //        setContentView(R.layout.secondfragment_layout);
         recyclerView = view.findViewById(R.id.my_recycler_view);
 
-        MainController controller = new MainController(this);
+        MainController controller = new MainController(this, Injection.getRestApiInstance());
         controller.start();
 
         return view;
