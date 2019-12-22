@@ -1,4 +1,4 @@
-package com.example.android4a;
+package com.example.android4a.Vue;
 
 import java.util.List;
 
@@ -9,6 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.android4a.Modèle.Data;
+import com.example.android4a.R;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 

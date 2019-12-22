@@ -1,5 +1,7 @@
 package com.example.android4a;
 
+import com.example.android4a.Modèle.Data;
+
 import java.util.List;
 
 import retrofit2.Call;

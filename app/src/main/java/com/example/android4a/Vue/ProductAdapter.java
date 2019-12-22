@@ -1,4 +1,4 @@
-package com.example.android4a;
+package com.example.android4a.Vue;
 
 
 import android.content.Context;
@@ -9,6 +9,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
+import com.example.android4a.Modèle.Product;
+import com.example.android4a.R;
 
 import java.util.List;
 
