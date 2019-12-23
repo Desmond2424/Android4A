@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Vue.FirstFragment"
+>
+
+    <com.synnapps.carouselview.CarouselView
+            android:id="@+id/carousel"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:fillColor="#FFFFFFFF"
+            app:pageColor="#00000000"
+            app:radius="6dp"
+            app:strokeColor="#FF777777"
+            app:strokeWidth="1dp">
+    </com.synnapps.carouselview.CarouselView>
+
+
+    <TextView
+            android:id="@+id/text_notreEquipe"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/carousel"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#3b3d3f"
+            android:textStyle="bold"
+            android:text="@string/notre_equipe_presentation">
+
+    </TextView>
+
+
+    <TextView
+            android:id="@+id/Expertise"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/carousel"
+            android:layout_marginTop="192dp"
+            android:gravity="center"
+            android:text="Expertise | Efficacité | Perfection"
+            android:textColor="#054671"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+    </TextView>
+
+    <GridView
+            android:id="@+id/myGridview"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_below="@+id/carousel"
+            android:layout_marginTop="260dp"
+            android:columnWidth="100dp"
+            android:numColumns="1"
+            android:stretchMode="columnWidth">
+
+    </GridView>
+
+</RelativeLayout>
