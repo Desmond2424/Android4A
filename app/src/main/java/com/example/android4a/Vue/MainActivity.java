@@ -1,9 +1,10 @@
 package com.example.android4a.Vue;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
@@ -19,9 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawer;
     private Toolbar toolbar;
     private NavigationView nvDrawer;
-
-    // Make sure to be using androidx.appcompat.app.ActionBarDrawerToggle version.
-    private ActionBarDrawerToggle drawerToggle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,6 +87,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.nav_fourth_fragment:
                 fragmentClass = FourthFragment.class;
                 break;
+            case R.id.media:
+                fragmentClass = MediaFragment.class;
+                break;
             default:
                 fragmentClass = FirstFragment.class;
         }
@@ -109,4 +110,6 @@ public class MainActivity extends AppCompatActivity {
         // Close the navigation drawer
         mDrawer.closeDrawers();
     }
+
+
 }
