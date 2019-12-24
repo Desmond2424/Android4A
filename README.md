@@ -57,7 +57,7 @@ Mise en avant de 4 points éssentiels de l'entreprise :
 
 ![Capture6](https://user-images.githubusercontent.com/49559351/71382807-e3e83b80-25d9-11ea-8b9b-2b1edb7baa26.PNG)
 
-## Fonctionnalités supplémantaires
+## Fonctionnalités supplémentaires
 
 - Media player
 
@@ -67,7 +67,6 @@ Mise en avant de 4 points éssentiels de l'entreprise :
 
 ![camera1](https://user-images.githubusercontent.com/49559351/71408909-0f9e0c80-2640-11ea-91fb-c5181f8e490f.PNG)
 
-![Capture1](https://user-images.githubusercontent.com/49559351/71425199-528cce00-269a-11ea-9815-1d558d53a2a9.PNG)
 
 ![Capture2](https://user-images.githubusercontent.com/49559351/71425232-7ea84f00-269a-11ea-8eff-76d80c5027a4.PNG)
 
