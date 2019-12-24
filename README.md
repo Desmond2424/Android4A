@@ -6,7 +6,7 @@ DCA Consulting est une entreprise de consultation dans les domaines de la techno
 
 Développement d'une application android codée en java avec Android Studio dans le cadre du module "Programmarion Mobile" en 4A. 
 
-Mise en avant de 4 points éssentiels de l'entreprise dans l'application Android : 
+Mise en avant de 4 points éssentiels de l'entreprise : 
 
 - Equipe de DCA Consulting
 - Les métiers de DCA Consulting 
@@ -20,15 +20,12 @@ Mise en avant de 4 points éssentiels de l'entreprise dans l'application Android
 -Récupérer la branche Master.
 
 ## Consignes respectées :
-
-Must to have : 
+ 
 - Fragment 
 - Appel WebService à une API Rest
 - Interface esthétique
 - Architecture MVC
 - Gitfolw bien organisé 
-
-Good to have :
 - Singleton
 - Utilisation de Matérial design 
 - Utilisation de nombreuses fonctionnalités (Recyclerview, cardview,mediaplayer, navigationDrawer...)
@@ -69,7 +66,11 @@ Good to have :
 - Camera
 
 ![camera1](https://user-images.githubusercontent.com/49559351/71408909-0f9e0c80-2640-11ea-91fb-c5181f8e490f.PNG)
-![camera2](https://user-images.githubusercontent.com/49559351/71409081-9a7f0700-2640-11ea-8051-db04fd7dded5.PNG)
+
+![Capture1](https://user-images.githubusercontent.com/49559351/71425199-528cce00-269a-11ea-9815-1d558d53a2a9.PNG)
+
+![Capture2](https://user-images.githubusercontent.com/49559351/71425232-7ea84f00-269a-11ea-8eff-76d80c5027a4.PNG)
+
 
 
 
