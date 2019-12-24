@@ -2,9 +2,16 @@
 
 ## Présentation 
 
-DCA Consulting est une entreprise de consultation dans les domaines de technologie et de l'informatique. Elle peut aider les entreprises dans leurs projets de développement interne ou externe.
+DCA Consulting est une entreprise de consultation dans les domaines de la technologie et de l'informatique. Elle peut aider les entreprises dans leurs projets de développement interne ou externe.
 
-Développement d'une application android codé e, java avec Android Studio dans le cadre du module "Programmarion Mobile" en 4A. 
+Développement d'une application android codée en java avec Android Studio dans le cadre du module "Programmarion Mobile" en 4A. 
+
+Mise en avant de 4 points éssentiels de l'entreprise dans l'application Android : 
+
+- Equipe de DCA Consulting
+- Les métiers de DCA Consulting 
+- Les Postes présents chez DCA consulting (Carrières)
+- Page de contact 
 
 ## Prérequis 
 
@@ -35,27 +42,34 @@ Good to have :
 
 - Menu du navigation drawer
 
-![Capture](https://user-images.githubusercontent.com/49559351/71382591-eac27e80-25d8-11ea-819e-2fc0bdb8add5.PNG)
+![navigation](https://user-images.githubusercontent.com/49559351/71408712-75d65f80-263f-11ea-87d3-f1246332a20b.PNG)
 
-- notre equipe
+- Notre equipe
 
 ![Capture3](https://user-images.githubusercontent.com/49559351/71382728-73d9b580-25d9-11ea-9928-74f5d0716a6e.PNG)
 
-- notre metier 
+- Notre metier 
 
 ![Capture4](https://user-images.githubusercontent.com/49559351/71382799-ca46f400-25d9-11ea-880a-9ba74063325f.PNG)
 
-- carrière 
+- Carrière 
 
 ![Capture5](https://user-images.githubusercontent.com/49559351/71382804-e054b480-25d9-11ea-932c-b20a7f77c15f.PNG)
 
-- contact
+- Contact
 
 ![Capture6](https://user-images.githubusercontent.com/49559351/71382807-e3e83b80-25d9-11ea-8b9b-2b1edb7baa26.PNG)
 
 ## Fonctionnalités supplémantaires
 
-- media player
+- Media player
 
 ![Capture7](https://user-images.githubusercontent.com/49559351/71382830-fbbfbf80-25d9-11ea-8ee2-ffef922b3783.PNG)
+
+- Camera
+
+![camera1](https://user-images.githubusercontent.com/49559351/71408909-0f9e0c80-2640-11ea-91fb-c5181f8e490f.PNG)
+![camera2](https://user-images.githubusercontent.com/49559351/71409081-9a7f0700-2640-11ea-8051-db04fd7dded5.PNG)
+
+
 
