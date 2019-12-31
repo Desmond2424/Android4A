@@ -2,16 +2,22 @@
 
 ## Présentation 
 
+Développement d'une application android codée en java avec Android Studio dans le cadre du module "Programmarion Mobile" en 4A.
+
 DCA Consulting est une entreprise de consultation dans les domaines de la technologie et de l'informatique. Elle peut aider les entreprises dans leurs projets de développement interne ou externe.
-
-Développement d'une application android codée en java avec Android Studio dans le cadre du module "Programmarion Mobile" en 4A. 
-
+ 
 Mise en avant de 4 points éssentiels de l'entreprise : 
 
 - Equipe de DCA Consulting
 - Les métiers de DCA Consulting 
 - Les Postes présents chez DCA consulting (Carrières)
 - Page de contact 
+
+L'application contient aussi des fonctionnalités supplémentaire : 
+
+- Mediaplayer 
+- Camera 
+- Videoplayer
 
 ## Prérequis 
 
@@ -27,8 +33,9 @@ Mise en avant de 4 points éssentiels de l'entreprise :
 - Architecture MVC
 - Gitfolw bien organisé 
 - Singleton
+- Injection
 - Utilisation de Matérial design 
-- Utilisation de nombreuses fonctionnalités (Recyclerview, cardview,mediaplayer, navigationDrawer...)
+- Utilisation de nombreuses fonctionnalités (Recyclerview, cardview, gridview, mediaplayer, navigationDrawer...)
 - Animation entre écran (SplashScreen)
 
 ## Interface mobile
@@ -39,7 +46,7 @@ Mise en avant de 4 points éssentiels de l'entreprise :
 
 - Menu du navigation drawer
 
-![navigation](https://user-images.githubusercontent.com/49559351/71408712-75d65f80-263f-11ea-87d3-f1246332a20b.PNG)
+![navigation](https://user-images.githubusercontent.com/49559351/71621948-eac30f80-2bd2-11ea-8fe0-6693a089a093.PNG)
 
 - Notre equipe
 
@@ -69,6 +76,11 @@ Mise en avant de 4 points éssentiels de l'entreprise :
 
 
 ![Capture2](https://user-images.githubusercontent.com/49559351/71425232-7ea84f00-269a-11ea-8eff-76d80c5027a4.PNG)
+
+- Vidéo player 
+
+![videoplayer](https://user-images.githubusercontent.com/49559351/71621924-a3d51a00-2bd2-11ea-89e6-1c33eb343fd1.PNG)
+
 
 
 
