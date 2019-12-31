@@ -1,9 +1,8 @@
 package com.example.android4a.Vue;
 
-import android.media.MediaPlayer;
+
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -93,9 +92,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.camera:
                 fragmentClass = CameraFragment.class;
                 break;
-            case R.id.videoplayer:
+            case R.id.video:
                 fragmentClass = VideoFragment.class;
                 break;
+
             default:
                 fragmentClass = FirstFragment.class;
         }

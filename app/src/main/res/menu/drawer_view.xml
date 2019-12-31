@@ -29,11 +29,11 @@
                 <item
                         android:id="@+id/camera"
                         android:icon="@drawable/ic_two"
-                        android:title="Sub item 2" />
+                        android:title="Camera" />
                 <item
-                        android:id="@+id/videoplayer"
+                        android:id="@+id/video"
                         android:icon="@drawable/ic_three"
-                        android:title="Sub item 2" />
+                        android:title="Videop Players" />
             </group>
         </menu>
 

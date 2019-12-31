@@ -8,19 +8,20 @@ import android.view.ViewGroup;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
+
 import androidx.fragment.app.Fragment;
 
 import com.example.android4a.R;
 
-class VideoFragment extends Fragment {
+public class VideoFragment extends Fragment {
 
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.video_layout, container, false);
 
         VideoView videoView = view.findViewById(R.id.video);
 
-        //Set MediaController  to enable play, pause, forward, etc options.
-        MediaController mediaController= new MediaController(getContext());
+        MediaController mediaController= new MediaController(getActivity());
         mediaController.setAnchorView(videoView);
 
         //Location of Media File
@@ -33,6 +34,5 @@ class VideoFragment extends Fragment {
         videoView.start();
 
         return view;
-
     }
 }
