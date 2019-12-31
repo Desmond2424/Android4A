@@ -15,7 +15,7 @@ import com.example.android4a.R;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.fragment.app.FragmentManager;
-        
+
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawer;
     private Toolbar toolbar;
@@ -89,6 +89,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.media:
                 fragmentClass = MediaFragment.class;
+                break;
+            case R.id.camera:
+                fragmentClass = CameraFragment.class;
+                break;
+            case R.id.videoplayer:
+                fragmentClass = VideoFragment.class;
                 break;
             default:
                 fragmentClass = FirstFragment.class;
